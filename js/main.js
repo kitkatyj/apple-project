@@ -85,7 +85,7 @@ function init(){
         'yPos':canvas.height/2,
         'width':29,
         'height':52,
-        'src':'_res/apple.png',
+        'src':'res/apple.png',
         'frameCount':0,
         'totalFrames':16,
         'framesPerRow':4,
