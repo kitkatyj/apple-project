@@ -125,12 +125,10 @@ function draw(){
     
     if(applePlayer.action === 'walking'){
         switch(applePlayer.orientation){
-            case 'left':
-                applePlayer.xPos--;
-                break;
-            case 'right':
-                applePlayer.xPos++;
-                break;
+            case 'left':    applePlayer.xPos--; break;
+            case 'right':   applePlayer.xPos++; break;
+            case 'back':    applePlayer.yPos--; break;
+            case 'front':   applePlayer.yPos++; break;
         }
     }
     
